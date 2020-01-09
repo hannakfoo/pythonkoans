@@ -15,7 +15,7 @@ class AboutNone(Koan):
 
     def test_none_is_universal(self):
         "There is only one None"
-        self.assertEqual(____, None is None)
+        self.assertEqual(True, None is None)
 
     def test_what_exception_do_you_get_when_calling_nonexistent_methods(self):
         """
@@ -37,11 +37,11 @@ class AboutNone(Koan):
         #
         #     https://github.com/gregmalcolm/python_koans/wiki/Class-Attribute
 
-        self.assertEqual(__, ex2.__class__)
+        self.assertEqual(exc, ex2.__class__)
 
         # What message was attached to the exception?
         # (HINT: replace __ with part of the error message.)
-        self.assertRegex(ex2.args[0], __)
+        self.assertRegex(ex2.args[0], "none")
 
     def test_none_is_distinct(self):
         """

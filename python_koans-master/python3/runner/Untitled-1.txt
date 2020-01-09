@@ -1,0 +1,4 @@
+# Authentication
+* Something you know (password, question etc.)
+* Something you possess (mobile phone)
+* Something you are (fingerprint, face etc.)
